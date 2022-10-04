@@ -34,7 +34,7 @@
             // 
             // textBox_Password
             // 
-            this.textBox_Password.Location = new System.Drawing.Point(41, 42);
+            this.textBox_Password.Location = new System.Drawing.Point(18, 19);
             this.textBox_Password.Name = "textBox_Password";
             this.textBox_Password.PasswordChar = '*';
             this.textBox_Password.Size = new System.Drawing.Size(100, 20);
@@ -43,7 +43,7 @@
             // checkBox_ShowPassword
             // 
             this.checkBox_ShowPassword.AutoSize = true;
-            this.checkBox_ShowPassword.Location = new System.Drawing.Point(162, 44);
+            this.checkBox_ShowPassword.Location = new System.Drawing.Point(140, 22);
             this.checkBox_ShowPassword.Name = "checkBox_ShowPassword";
             this.checkBox_ShowPassword.Size = new System.Drawing.Size(101, 17);
             this.checkBox_ShowPassword.TabIndex = 1;
@@ -58,7 +58,7 @@
             this.Controls.Add(this.checkBox_ShowPassword);
             this.Controls.Add(this.textBox_Password);
             this.Name = "UserControl_Password1";
-            this.Size = new System.Drawing.Size(285, 115);
+            this.Size = new System.Drawing.Size(264, 62);
             this.ResumeLayout(false);
             this.PerformLayout();
 

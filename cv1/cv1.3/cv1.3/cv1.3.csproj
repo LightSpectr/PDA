@@ -87,6 +87,9 @@
     <EmbeddedResource Include="UserControl_Password1.resx">
       <DependentUpon>UserControl_Password1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Password2.resx">
+      <DependentUpon>UserControl_Password2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl_Password3.resx">
       <DependentUpon>UserControl_Password3.cs</DependentUpon>
     </EmbeddedResource>

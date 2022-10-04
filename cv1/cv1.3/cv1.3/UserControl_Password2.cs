@@ -16,5 +16,17 @@ namespace cv1._3
         {
             InitializeComponent();
         }
+
+        private void button_Login_Click(object sender, EventArgs e)
+        {
+            if (textBox_Password1.Text != textBox_Password2.Text)
+            {
+                MessageBox.Show("Passwords are not the same", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Login", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

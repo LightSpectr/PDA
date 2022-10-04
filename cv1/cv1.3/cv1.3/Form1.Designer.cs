@@ -28,15 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.userControl_Password21 = new cv1._3.UserControl_Password2();
             this.userControl_Password11 = new cv1._3.UserControl_Password1();
             this.SuspendLayout();
             // 
+            // userControl_Password21
+            // 
+            this.userControl_Password21.Location = new System.Drawing.Point(36, 120);
+            this.userControl_Password21.Name = "userControl_Password21";
+            this.userControl_Password21.Size = new System.Drawing.Size(139, 119);
+            this.userControl_Password21.TabIndex = 1;
+            // 
             // userControl_Password11
             // 
-            this.userControl_Password11.Location = new System.Drawing.Point(36, 23);
+            this.userControl_Password11.Location = new System.Drawing.Point(45, 47);
             this.userControl_Password11.Name = "userControl_Password11";
-            this.userControl_Password11.Size = new System.Drawing.Size(285, 115);
-            this.userControl_Password11.TabIndex = 0;
+            this.userControl_Password11.Size = new System.Drawing.Size(264, 67);
+            this.userControl_Password11.TabIndex = 2;
             // 
             // Form1
             // 
@@ -44,6 +52,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.userControl_Password11);
+            this.Controls.Add(this.userControl_Password21);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -51,7 +60,7 @@
         }
 
         #endregion
-
+        private UserControl_Password2 userControl_Password21;
         private UserControl_Password1 userControl_Password11;
     }
 }
