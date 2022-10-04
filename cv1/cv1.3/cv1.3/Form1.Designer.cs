@@ -33,7 +33,7 @@
             // 
             // userControl_GeneratorCitace1
             // 
-            this.userControl_GeneratorCitace1.Location = new System.Drawing.Point(1, 12);
+            this.userControl_GeneratorCitace1.Location = new System.Drawing.Point(1, 0);
             this.userControl_GeneratorCitace1.Name = "userControl_GeneratorCitace1";
             this.userControl_GeneratorCitace1.Size = new System.Drawing.Size(787, 257);
             this.userControl_GeneratorCitace1.TabIndex = 0;

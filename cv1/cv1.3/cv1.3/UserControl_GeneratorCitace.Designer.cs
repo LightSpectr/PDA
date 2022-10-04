@@ -95,9 +95,9 @@
             this.checkBox_ChangeStyle.AutoSize = true;
             this.checkBox_ChangeStyle.Location = new System.Drawing.Point(6, 227);
             this.checkBox_ChangeStyle.Name = "checkBox_ChangeStyle";
-            this.checkBox_ChangeStyle.Size = new System.Drawing.Size(80, 17);
+            this.checkBox_ChangeStyle.Size = new System.Drawing.Size(90, 17);
             this.checkBox_ChangeStyle.TabIndex = 6;
-            this.checkBox_ChangeStyle.Text = "checkBox1";
+            this.checkBox_ChangeStyle.Text = "Formát citace";
             this.checkBox_ChangeStyle.UseVisualStyleBackColor = true;
             this.checkBox_ChangeStyle.CheckedChanged += new System.EventHandler(this.checkBox_ChangeStyle_CheckedChanged);
             // 
