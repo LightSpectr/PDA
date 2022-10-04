@@ -34,7 +34,7 @@
             this.textBox_Name = new System.Windows.Forms.TextBox();
             this.textBox_Year = new System.Windows.Forms.TextBox();
             this.textBox_URL = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox_ChangeStyle = new System.Windows.Forms.CheckBox();
             this.label_FisrtName = new System.Windows.Forms.Label();
             this.label_LastName = new System.Windows.Forms.Label();
             this.label_Name = new System.Windows.Forms.Label();
@@ -90,15 +90,16 @@
             this.textBox_URL.TabIndex = 5;
             this.textBox_URL.TextChanged += new System.EventHandler(this.textBox_URL_TextChanged);
             // 
-            // checkBox1
+            // checkBox_ChangeStyle
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 227);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox_ChangeStyle.AutoSize = true;
+            this.checkBox_ChangeStyle.Location = new System.Drawing.Point(6, 227);
+            this.checkBox_ChangeStyle.Name = "checkBox_ChangeStyle";
+            this.checkBox_ChangeStyle.Size = new System.Drawing.Size(80, 17);
+            this.checkBox_ChangeStyle.TabIndex = 6;
+            this.checkBox_ChangeStyle.Text = "checkBox1";
+            this.checkBox_ChangeStyle.UseVisualStyleBackColor = true;
+            this.checkBox_ChangeStyle.CheckedChanged += new System.EventHandler(this.checkBox_ChangeStyle_CheckedChanged);
             // 
             // label_FisrtName
             // 
@@ -154,7 +155,7 @@
             this.Controls.Add(this.label_Name);
             this.Controls.Add(this.label_LastName);
             this.Controls.Add(this.label_FisrtName);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBox_ChangeStyle);
             this.Controls.Add(this.textBox_URL);
             this.Controls.Add(this.textBox_Year);
             this.Controls.Add(this.textBox_Name);
@@ -176,7 +177,7 @@
         private System.Windows.Forms.TextBox textBox_Name;
         private System.Windows.Forms.TextBox textBox_Year;
         private System.Windows.Forms.TextBox textBox_URL;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox_ChangeStyle;
         private System.Windows.Forms.Label label_FisrtName;
         private System.Windows.Forms.Label label_LastName;
         private System.Windows.Forms.Label label_Name;

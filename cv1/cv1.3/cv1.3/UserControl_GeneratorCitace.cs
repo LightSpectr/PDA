@@ -28,7 +28,15 @@ namespace cv1._3
 
                 if (textBox_FisrtName.Text.Length > 0)
                 {
-                    citation += ", " + textBox_FisrtName.Text;
+                    if (checkBox_ChangeStyle.Checked)
+                    {
+                        citation += ", " + textBox_FisrtName.Text[0];
+                    }
+                    else
+                    {
+                        citation += ", " + textBox_FisrtName.Text;
+                    }
+                   
                 }
 
                 citation += ".";
@@ -79,6 +87,11 @@ namespace cv1._3
         }
 
         private void textBox_URL_TextChanged(object sender, EventArgs e)
+        {
+            process_citation();
+        }
+
+        private void checkBox_ChangeStyle_CheckedChanged(object sender, EventArgs e)
         {
             process_citation();
         }
