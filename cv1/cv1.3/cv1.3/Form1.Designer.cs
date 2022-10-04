@@ -30,6 +30,7 @@
         {
             this.userControl_Password21 = new cv1._3.UserControl_Password2();
             this.userControl_Password11 = new cv1._3.UserControl_Password1();
+            this.userControl_Password31 = new cv1._3.UserControl_Password3();
             this.SuspendLayout();
             // 
             // userControl_Password21
@@ -46,11 +47,19 @@
             this.userControl_Password11.Size = new System.Drawing.Size(264, 67);
             this.userControl_Password11.TabIndex = 2;
             // 
+            // userControl_Password31
+            // 
+            this.userControl_Password31.Location = new System.Drawing.Point(383, 47);
+            this.userControl_Password31.Name = "userControl_Password31";
+            this.userControl_Password31.Size = new System.Drawing.Size(231, 100);
+            this.userControl_Password31.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.userControl_Password31);
             this.Controls.Add(this.userControl_Password11);
             this.Controls.Add(this.userControl_Password21);
             this.Name = "Form1";
@@ -62,6 +71,7 @@
         #endregion
         private UserControl_Password2 userControl_Password21;
         private UserControl_Password1 userControl_Password11;
+        private UserControl_Password3 userControl_Password31;
     }
 }
 
