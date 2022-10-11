@@ -66,7 +66,8 @@ namespace cv2
 
         public override string ToString()
         {
-            return "placeholder";
+            double percent = (stav * 100)/kapacita;
+            return String.Format("{0}/{1} ({2} %)",stav, kapacita, percent);
         }
 
     }
