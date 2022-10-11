@@ -23,7 +23,21 @@ namespace cv2
         public uint Stav
         {
             get { return stav; }
-            set { stav = value; }
+            set { 
+                
+                if (value < 0)
+                {
+                    throw new NadrzNelzeProvestOperaciException("Quantity is less then 0");
+                }
+                else if (value > kapacita)
+                {
+                    throw new NadrzNelzeProvestOperaciException("Capacity overflow");
+                }
+                else
+                {
+                    stav = value;
+                }
+            }
         }
 
         public void Pridat(uint val)
