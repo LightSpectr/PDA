@@ -40,7 +40,14 @@ namespace cv2
 
         public void Odebrat(uint val)
         {
-
+            if (stav - val >= 0)
+            {
+                stav -= val;
+            }
+            else
+            {
+                throw new NadrzNelzeProvestOperaciException("Quantity is less then 0");
+            }
         }
 
         public override string ToString()
