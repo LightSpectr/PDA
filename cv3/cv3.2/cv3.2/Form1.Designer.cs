@@ -36,14 +36,14 @@
             this.colorBox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox_AddName = new System.Windows.Forms.TextBox();
-            this.textBox_Add_blue = new System.Windows.Forms.TextBox();
+            this.textBox_AddBlue = new System.Windows.Forms.TextBox();
             this.textBox_AddGreen = new System.Windows.Forms.TextBox();
             this.textBox_AddRed = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox_Add = new System.Windows.Forms.GroupBox();
             this.textBox_ShowName = new System.Windows.Forms.TextBox();
             this.textBox_ShowHex = new System.Windows.Forms.TextBox();
             this.textBox_ShowInt = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@
             this.button_Sort = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.colorBox)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.groupBox_Add.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,12 +132,12 @@
             this.textBox_AddName.Size = new System.Drawing.Size(100, 23);
             this.textBox_AddName.TabIndex = 10;
             // 
-            // textBox_Add_blue
+            // textBox_AddBlue
             // 
-            this.textBox_Add_blue.Location = new System.Drawing.Point(63, 108);
-            this.textBox_Add_blue.Name = "textBox_Add_blue";
-            this.textBox_Add_blue.Size = new System.Drawing.Size(100, 23);
-            this.textBox_Add_blue.TabIndex = 13;
+            this.textBox_AddBlue.Location = new System.Drawing.Point(63, 108);
+            this.textBox_AddBlue.Name = "textBox_AddBlue";
+            this.textBox_AddBlue.Size = new System.Drawing.Size(100, 23);
+            this.textBox_AddBlue.TabIndex = 13;
             // 
             // textBox_AddGreen
             // 
@@ -189,23 +189,23 @@
             this.label4.TabIndex = 14;
             this.label4.Text = "Blue";
             // 
-            // groupBox2
+            // groupBox_Add
             // 
-            this.groupBox2.Controls.Add(this.textBox_AddRed);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.button_Add);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox_AddName);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox_Add_blue);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox_AddGreen);
-            this.groupBox2.Location = new System.Drawing.Point(512, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(184, 171);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Add color";
+            this.groupBox_Add.Controls.Add(this.textBox_AddRed);
+            this.groupBox_Add.Controls.Add(this.label4);
+            this.groupBox_Add.Controls.Add(this.button_Add);
+            this.groupBox_Add.Controls.Add(this.label3);
+            this.groupBox_Add.Controls.Add(this.textBox_AddName);
+            this.groupBox_Add.Controls.Add(this.label2);
+            this.groupBox_Add.Controls.Add(this.textBox_AddBlue);
+            this.groupBox_Add.Controls.Add(this.label1);
+            this.groupBox_Add.Controls.Add(this.textBox_AddGreen);
+            this.groupBox_Add.Location = new System.Drawing.Point(512, 12);
+            this.groupBox_Add.Name = "groupBox_Add";
+            this.groupBox_Add.Size = new System.Drawing.Size(184, 171);
+            this.groupBox_Add.TabIndex = 9;
+            this.groupBox_Add.TabStop = false;
+            this.groupBox_Add.Text = "Add color";
             // 
             // textBox_ShowName
             // 
@@ -313,7 +313,7 @@
             this.Controls.Add(this.textBox_ShowInt);
             this.Controls.Add(this.textBox_ShowHex);
             this.Controls.Add(this.textBox_ShowName);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox_Add);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button_Down);
             this.Controls.Add(this.button_Up);
@@ -323,8 +323,8 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.colorBox)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.groupBox_Add.ResumeLayout(false);
+            this.groupBox_Add.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -342,14 +342,14 @@
         private PictureBox colorBox;
         private GroupBox groupBox1;
         private TextBox textBox_AddName;
-        private TextBox textBox_Add_blue;
+        private TextBox textBox_AddBlue;
         private TextBox textBox_AddGreen;
         private TextBox textBox_AddRed;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
-        private GroupBox groupBox2;
+        private GroupBox groupBox_Add;
         private TextBox textBox_ShowName;
         private TextBox textBox_ShowHex;
         private TextBox textBox_ShowInt;
