@@ -34,12 +34,12 @@ namespace cv3._2
 
         public string Hex
         {
-            get { return String.Format("#{0}{1}{2}", this.red, this.green, this.blue); }
+            get { return String.Format("#{0}{1}{2}", this.red.ToString("X2"), this.green.ToString("X2"), this.blue.ToString("X2")); }
         }
 
         public override string ToString()
         {
-            return String.Format("{0} (#{1}{2}{3}):{4})", name, red.ToString("X"), green.ToString("X"), blue.ToString("X"), intensity) ;
+            return String.Format("{0} (#{1}{2}{3}):{4})", name, red.ToString("X2"), green.ToString("X2"), blue.ToString("X2"), intensity) ;
         }
 
     }
