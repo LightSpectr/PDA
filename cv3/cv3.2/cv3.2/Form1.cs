@@ -6,5 +6,10 @@ namespace cv3._2
         {
             InitializeComponent();
         }
+
+        private void button_Add_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

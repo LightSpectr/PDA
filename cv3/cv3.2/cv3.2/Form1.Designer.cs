@@ -28,129 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.listBox_Colors = new System.Windows.Forms.ListBox();
+            this.button_Remove = new System.Windows.Forms.Button();
+            this.button_Add = new System.Windows.Forms.Button();
+            this.button_Up = new System.Windows.Forms.Button();
+            this.button_Down = new System.Windows.Forms.Button();
+            this.colorBox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox_AddName = new System.Windows.Forms.TextBox();
+            this.textBox_Add_blue = new System.Windows.Forms.TextBox();
+            this.textBox_AddGreen = new System.Windows.Forms.TextBox();
+            this.textBox_AddRed = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox_ShowName = new System.Windows.Forms.TextBox();
+            this.textBox_ShowHex = new System.Windows.Forms.TextBox();
+            this.textBox_ShowInt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.radioButton_Des = new System.Windows.Forms.RadioButton();
+            this.radioButton_Asc = new System.Windows.Forms.RadioButton();
+            this.button_Sort = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.colorBox)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBox_Colors
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 184);
-            this.listBox1.TabIndex = 0;
+            this.listBox_Colors.FormattingEnabled = true;
+            this.listBox_Colors.ItemHeight = 15;
+            this.listBox_Colors.Location = new System.Drawing.Point(12, 12);
+            this.listBox_Colors.Name = "listBox_Colors";
+            this.listBox_Colors.Size = new System.Drawing.Size(120, 184);
+            this.listBox_Colors.TabIndex = 0;
             // 
-            // button1
+            // button_Remove
             // 
-            this.button1.Location = new System.Drawing.Point(138, 72);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Remove";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_Remove.Location = new System.Drawing.Point(138, 72);
+            this.button_Remove.Name = "button_Remove";
+            this.button_Remove.Size = new System.Drawing.Size(75, 23);
+            this.button_Remove.TabIndex = 3;
+            this.button_Remove.Text = "Remove";
+            this.button_Remove.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button_Add
             // 
-            this.button2.Location = new System.Drawing.Point(63, 137);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Add";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_Add.Location = new System.Drawing.Point(63, 137);
+            this.button_Add.Name = "button_Add";
+            this.button_Add.Size = new System.Drawing.Size(100, 23);
+            this.button_Add.TabIndex = 14;
+            this.button_Add.Text = "Add";
+            this.button_Add.UseVisualStyleBackColor = true;
+            this.button_Add.Click += new System.EventHandler(this.button_Add_Click);
             // 
-            // button3
+            // button_Up
             // 
-            this.button3.Location = new System.Drawing.Point(138, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 25);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "▲";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button_Up.Location = new System.Drawing.Point(138, 12);
+            this.button_Up.Name = "button_Up";
+            this.button_Up.Size = new System.Drawing.Size(25, 25);
+            this.button_Up.TabIndex = 1;
+            this.button_Up.Text = "▲";
+            this.button_Up.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button_Down
             // 
-            this.button4.Location = new System.Drawing.Point(138, 41);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 25);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "▼";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button_Down.Location = new System.Drawing.Point(138, 41);
+            this.button_Down.Name = "button_Down";
+            this.button_Down.Size = new System.Drawing.Size(25, 25);
+            this.button_Down.TabIndex = 2;
+            this.button_Down.Text = "▼";
+            this.button_Down.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // colorBox
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 69);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.colorBox.BackColor = System.Drawing.SystemColors.Control;
+            this.colorBox.Location = new System.Drawing.Point(6, 22);
+            this.colorBox.Name = "colorBox";
+            this.colorBox.Size = new System.Drawing.Size(241, 69);
+            this.colorBox.TabIndex = 5;
+            this.colorBox.TabStop = false;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.colorBox);
             this.groupBox1.Location = new System.Drawing.Point(253, 101);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(253, 97);
-            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Color";
             // 
-            // textBox1
+            // textBox_AddName
             // 
-            this.textBox1.Location = new System.Drawing.Point(63, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 7;
+            this.textBox_AddName.Location = new System.Drawing.Point(63, 21);
+            this.textBox_AddName.Name = "textBox_AddName";
+            this.textBox_AddName.Size = new System.Drawing.Size(100, 23);
+            this.textBox_AddName.TabIndex = 10;
             // 
-            // textBox2
+            // textBox_Add_blue
             // 
-            this.textBox2.Location = new System.Drawing.Point(63, 108);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 8;
+            this.textBox_Add_blue.Location = new System.Drawing.Point(63, 108);
+            this.textBox_Add_blue.Name = "textBox_Add_blue";
+            this.textBox_Add_blue.Size = new System.Drawing.Size(100, 23);
+            this.textBox_Add_blue.TabIndex = 13;
             // 
-            // textBox3
+            // textBox_AddGreen
             // 
-            this.textBox3.Location = new System.Drawing.Point(63, 79);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 9;
+            this.textBox_AddGreen.Location = new System.Drawing.Point(63, 79);
+            this.textBox_AddGreen.Name = "textBox_AddGreen";
+            this.textBox_AddGreen.Size = new System.Drawing.Size(100, 23);
+            this.textBox_AddGreen.TabIndex = 12;
             // 
-            // textBox4
+            // textBox_AddRed
             // 
-            this.textBox4.Location = new System.Drawing.Point(63, 50);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 10;
+            this.textBox_AddRed.Location = new System.Drawing.Point(63, 50);
+            this.textBox_AddRed.Name = "textBox_AddRed";
+            this.textBox_AddRed.Size = new System.Drawing.Size(100, 23);
+            this.textBox_AddRed.TabIndex = 11;
             // 
             // label1
             // 
@@ -190,45 +191,45 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.textBox_AddRed);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.button_Add);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.textBox_AddName);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.textBox_Add_blue);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.textBox_AddGreen);
             this.groupBox2.Location = new System.Drawing.Point(512, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(184, 171);
-            this.groupBox2.TabIndex = 15;
+            this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Add color";
             // 
-            // textBox5
+            // textBox_ShowName
             // 
-            this.textBox5.Location = new System.Drawing.Point(311, 12);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 16;
+            this.textBox_ShowName.Location = new System.Drawing.Point(311, 12);
+            this.textBox_ShowName.Name = "textBox_ShowName";
+            this.textBox_ShowName.ReadOnly = true;
+            this.textBox_ShowName.Size = new System.Drawing.Size(100, 23);
+            this.textBox_ShowName.TabIndex = 5;
             // 
-            // textBox6
+            // textBox_ShowHex
             // 
-            this.textBox6.Location = new System.Drawing.Point(311, 41);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(100, 23);
-            this.textBox6.TabIndex = 17;
+            this.textBox_ShowHex.Location = new System.Drawing.Point(311, 41);
+            this.textBox_ShowHex.Name = "textBox_ShowHex";
+            this.textBox_ShowHex.ReadOnly = true;
+            this.textBox_ShowHex.Size = new System.Drawing.Size(100, 23);
+            this.textBox_ShowHex.TabIndex = 6;
             // 
-            // textBox9
+            // textBox_ShowInt
             // 
-            this.textBox9.Location = new System.Drawing.Point(311, 72);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 20;
+            this.textBox_ShowInt.Location = new System.Drawing.Point(311, 72);
+            this.textBox_ShowInt.Name = "textBox_ShowInt";
+            this.textBox_ShowInt.ReadOnly = true;
+            this.textBox_ShowInt.Size = new System.Drawing.Size(100, 23);
+            this.textBox_ShowInt.TabIndex = 7;
             // 
             // label5
             // 
@@ -259,46 +260,46 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton2);
-            this.groupBox3.Controls.Add(this.radioButton1);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.radioButton_Des);
+            this.groupBox3.Controls.Add(this.radioButton_Asc);
+            this.groupBox3.Controls.Add(this.button_Sort);
             this.groupBox3.Location = new System.Drawing.Point(138, 101);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(107, 97);
-            this.groupBox3.TabIndex = 26;
+            this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Sort colors";
             // 
-            // button5
+            // radioButton_Des
             // 
-            this.button5.Location = new System.Drawing.Point(6, 65);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Sort";
-            this.button5.UseVisualStyleBackColor = true;
+            this.radioButton_Des.AutoSize = true;
+            this.radioButton_Des.Location = new System.Drawing.Point(6, 40);
+            this.radioButton_Des.Name = "radioButton_Des";
+            this.radioButton_Des.Size = new System.Drawing.Size(87, 19);
+            this.radioButton_Des.TabIndex = 1;
+            this.radioButton_Des.Text = "Descending";
+            this.radioButton_Des.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioButton_Asc
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 15);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(81, 19);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ascending";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton_Asc.AutoSize = true;
+            this.radioButton_Asc.Checked = true;
+            this.radioButton_Asc.Location = new System.Drawing.Point(6, 15);
+            this.radioButton_Asc.Name = "radioButton_Asc";
+            this.radioButton_Asc.Size = new System.Drawing.Size(81, 19);
+            this.radioButton_Asc.TabIndex = 0;
+            this.radioButton_Asc.TabStop = true;
+            this.radioButton_Asc.Text = "Ascending";
+            this.radioButton_Asc.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // button_Sort
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 40);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(87, 19);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.Text = "Descending";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.button_Sort.Location = new System.Drawing.Point(6, 65);
+            this.button_Sort.Name = "button_Sort";
+            this.button_Sort.Size = new System.Drawing.Size(75, 23);
+            this.button_Sort.TabIndex = 2;
+            this.button_Sort.Text = "Sort";
+            this.button_Sort.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -309,18 +310,18 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox_ShowInt);
+            this.Controls.Add(this.textBox_ShowHex);
+            this.Controls.Add(this.textBox_ShowName);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button_Down);
+            this.Controls.Add(this.button_Up);
+            this.Controls.Add(this.button_Remove);
+            this.Controls.Add(this.listBox_Colors);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.colorBox)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -333,31 +334,31 @@
 
         #endregion
 
-        private ListBox listBox1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private PictureBox pictureBox1;
+        private ListBox listBox_Colors;
+        private Button button_Remove;
+        private Button button_Add;
+        private Button button_Up;
+        private Button button_Down;
+        private PictureBox colorBox;
         private GroupBox groupBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox textBox_AddName;
+        private TextBox textBox_Add_blue;
+        private TextBox textBox_AddGreen;
+        private TextBox textBox_AddRed;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private GroupBox groupBox2;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox9;
+        private TextBox textBox_ShowName;
+        private TextBox textBox_ShowHex;
+        private TextBox textBox_ShowInt;
         private Label label5;
         private Label label6;
         private Label label9;
         private GroupBox groupBox3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private Button button5;
+        private RadioButton radioButton_Des;
+        private RadioButton radioButton_Asc;
+        private Button button_Sort;
     }
 }
