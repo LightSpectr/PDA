@@ -78,6 +78,7 @@
             this.button_Remove.TabIndex = 3;
             this.button_Remove.Text = "Remove";
             this.button_Remove.UseVisualStyleBackColor = true;
+            this.button_Remove.Click += new System.EventHandler(this.button_Remove_Click);
             // 
             // button_Add
             // 
@@ -303,6 +304,7 @@
             this.button_Sort.TabIndex = 2;
             this.button_Sort.Text = "Sort";
             this.button_Sort.UseVisualStyleBackColor = true;
+            this.button_Sort.Click += new System.EventHandler(this.button_Sort_Click);
             // 
             // Form1
             // 

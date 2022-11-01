@@ -103,5 +103,26 @@ namespace cv3._2
                 listBox_Colors.SelectedIndex++;
             }
         }
+
+        private void button_Remove_Click(object sender, EventArgs e)
+        {
+            colors.RemoveAt(listBox_Colors.SelectedIndex);
+            refresh_Listbox_Data();
+        }
+
+        private void button_Sort_Click(object sender, EventArgs e)
+        {
+            if (radioButton_Asc.Checked)
+            {
+                colors.Sort(new BarvaComparerAsc());
+                refresh_Listbox_Data();
+
+            }
+            else if (radioButton_Des.Checked)
+            {
+                colors.Sort(new BarvaComparerDesc());
+                refresh_Listbox_Data();
+            }
+        }
     }
 }
