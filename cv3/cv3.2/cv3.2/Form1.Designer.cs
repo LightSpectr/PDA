@@ -68,6 +68,7 @@
             this.listBox_Colors.Name = "listBox_Colors";
             this.listBox_Colors.Size = new System.Drawing.Size(120, 184);
             this.listBox_Colors.TabIndex = 0;
+            this.listBox_Colors.SelectedIndexChanged += new System.EventHandler(this.listBox_Colors_SelectedIndexChanged);
             // 
             // button_Remove
             // 
@@ -96,6 +97,7 @@
             this.button_Up.TabIndex = 1;
             this.button_Up.Text = "▲";
             this.button_Up.UseVisualStyleBackColor = true;
+            this.button_Up.Click += new System.EventHandler(this.button_Up_Click);
             // 
             // button_Down
             // 
@@ -105,6 +107,7 @@
             this.button_Down.TabIndex = 2;
             this.button_Down.Text = "▼";
             this.button_Down.UseVisualStyleBackColor = true;
+            this.button_Down.Click += new System.EventHandler(this.button_Down_Click);
             // 
             // colorBox
             // 
