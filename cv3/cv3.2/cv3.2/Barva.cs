@@ -39,7 +39,7 @@ namespace cv3._2
 
         public override string ToString()
         {
-            return String.Format("{0} (#{1}{2}{3}):{4})", name, red.ToString("X2"), green.ToString("X2"), blue.ToString("X2"), intensity) ;
+            return String.Format("{0} (#{1}{2}{3}):{4}", name, red.ToString("X2"), green.ToString("X2"), blue.ToString("X2"), intensity) ;
         }
 
     }
