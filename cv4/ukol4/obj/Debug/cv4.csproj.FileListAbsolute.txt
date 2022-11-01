@@ -1,0 +1,9 @@
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\bin\Debug\Ukol4.exe.config
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\bin\Debug\Ukol4.exe
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\bin\Debug\Ukol4.pdb
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\cv4.Form1.resources
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\Ukol4.Properties.Resources.resources
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\cv4.csproj.GenerateResource.cache
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\cv4.csproj.CoreCompileInputs.cache
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\Ukol4.exe
+C:\Users\1\Downloads\Telegram Desktop\Nová komprimovaná složka (metoda ZIP) (2)\PDA\cv4\Ukol4\obj\Debug\Ukol4.pdb
