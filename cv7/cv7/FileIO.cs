@@ -12,8 +12,8 @@ namespace cv5
 {
     partial class FileIO : UserControl
     {
-        private string filePathR;
-        private string filePathS;
+        protected string filePathR;
+        protected string filePathS;
         public FileIO()
         {
             filePathR = "";
@@ -21,7 +21,7 @@ namespace cv5
             InitializeComponent();
         }
 
-        private void button_FileSource_Click(object sender, EventArgs e)
+        protected void button_FileSource_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
@@ -48,7 +48,7 @@ namespace cv5
 
         }
 
-        private void button_FileTarget_Click(object sender, EventArgs e)
+        protected void button_FileTarget_Click(object sender, EventArgs e)
         {
             using (SaveFileDialog save = new SaveFileDialog())
             {
@@ -73,8 +73,8 @@ namespace cv5
         }
 
 
-        public string PathRead { get { return filePathR; } }
+        public virtual string PathRead { get { return filePathR; } }
 
-        public string PathSave { get { return filePathS; } }
+        public virtual string PathSave { get { return filePathS; } }
     }
 }

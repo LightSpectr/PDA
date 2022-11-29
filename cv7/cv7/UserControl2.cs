@@ -36,5 +36,21 @@ namespace cv7
                 button_FileTarget.Enabled = true;
             }
         }
+
+        public override string PathSave {
+            get
+            {
+                if (checkBox_copy.Checked)
+                {
+                    return filePathS; //TODO
+                }
+                else
+                {
+                    return filePathS;
+                }
+            }
+                   
+        }
+
     }
 }
