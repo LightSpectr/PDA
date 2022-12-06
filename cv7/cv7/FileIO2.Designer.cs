@@ -2,7 +2,7 @@
 using cv5;
 namespace cv7
 {
-    partial class UserControl2 : FileIO
+    partial class FileIO2 : FileIO
     {
         /// <summary> 
         /// Vyžaduje se proměnná návrháře.

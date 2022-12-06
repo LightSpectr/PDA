@@ -12,8 +12,8 @@ using cv5;
 
 namespace cv7
 {
-    public partial class UserControl2 : FileIO { 
-        public UserControl2()
+    public partial class FileIO2 : FileIO { 
+        public FileIO2()
         {
             InitializeComponent();
         }
