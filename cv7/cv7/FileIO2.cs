@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,15 +38,20 @@ namespace cv7
 
         public override string PathSave {
             get
-            {
-                if (checkBox_copy.Checked)
+            {   if(filePathS != null)
                 {
-                    return filePathS; //TODO
+                    if (checkBox_copy.Checked)
+                    {
+                        string file = Path.GetFileNameWithoutExtension(filePathS);
+                       
+                        return filePathS.Replace(file, file + "_copy");
+                    }
+                    else
+                    {
+                        return filePathS;
+                    }
                 }
-                else
-                {
-                    return filePathS;
-                }
+                return "";
             }
                    
         }
