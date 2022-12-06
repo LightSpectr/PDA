@@ -23,16 +23,14 @@ namespace cv7
             if (checkBox_copy.Checked)
             {
                 textBox_FileTarget.Enabled = false;
-                textBox_FileSource.Enabled = false;
-                button_FileSource.Enabled = false;
+                
                 button_FileTarget.Enabled = false;
 
             }
             else
             {
                 textBox_FileTarget.Enabled = true;
-                textBox_FileSource.Enabled = true;
-                button_FileSource.Enabled = true;
+               
                 button_FileTarget.Enabled = true;
             }
         }

@@ -28,12 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.fileiO21 = new cv7.FileIO2();
+            this.SuspendLayout();
+            // 
+            // fileiO21
+            // 
+            this.fileiO21.Location = new System.Drawing.Point(27, 48);
+            this.fileiO21.Name = "fileiO21";
+            this.fileiO21.Size = new System.Drawing.Size(337, 164);
+            this.fileiO21.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.fileiO21);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private FileIO2 fileiO21;
     }
 }
