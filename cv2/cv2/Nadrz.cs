@@ -54,7 +54,7 @@ namespace cv2
 
         public void Odebrat(uint val)
         {
-            if (stav - val >= 0)
+            if (stav >= val )
             {
                 stav -= val;
             }
