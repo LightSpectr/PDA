@@ -42,6 +42,7 @@ namespace cv7
                 {
                     if (checkBox_copy.Checked)
                     {
+                        filePathS = filePathR;
                         string file = Path.GetFileNameWithoutExtension(filePathS);
                        
                         return filePathS.Replace(file, file + "_copy");

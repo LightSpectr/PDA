@@ -69,7 +69,7 @@ namespace cv5
             }
 
             if (filePathS.Length > 0)
-                textBox_FileSource.Text = filePathS;
+                textBox_FileTarget.Text = filePathS;
         }
 
 
