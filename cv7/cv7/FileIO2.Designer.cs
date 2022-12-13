@@ -38,19 +38,25 @@ namespace cv7
             this.checkBox_copy.AutoSize = true;
             this.checkBox_copy.Location = new System.Drawing.Point(3, 132);
             this.checkBox_copy.Name = "checkBox_copy";
-            this.checkBox_copy.Size = new System.Drawing.Size(84, 19);
+            this.checkBox_copy.Size = new System.Drawing.Size(89, 19);
             this.checkBox_copy.TabIndex = 12;
-            this.checkBox_copy.Text = "make copy";
+            this.checkBox_copy.Text = "Udělat kopii";
             this.checkBox_copy.UseVisualStyleBackColor = true;
             this.checkBox_copy.CheckedChanged += new System.EventHandler(this.checkBox_copy_CheckedChanged);
             // 
-            // UserControl2
+            // FileIO2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.checkBox_copy);
-            this.Name = "UserControl2";
+            this.Name = "FileIO2";
             this.Size = new System.Drawing.Size(337, 164);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.textBox_FileSource, 0);
+            this.Controls.SetChildIndex(this.textBox_FileTarget, 0);
+            this.Controls.SetChildIndex(this.button_FileSource, 0);
+            this.Controls.SetChildIndex(this.button_FileTarget, 0);
             this.Controls.SetChildIndex(this.checkBox_copy, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
